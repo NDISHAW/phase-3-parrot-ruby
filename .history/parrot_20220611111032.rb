@@ -1,7 +1,6 @@
 # Create method `parrot` that outputs a given phrase and
 # returns the phrase
 def parrot(kasuku="Squawk!")
-    puts "#{kasuku}"
-    return kasuku
+    puts "Squawk!"
+    return "Squawk"
 end
-parrot("Pretty bird!")
